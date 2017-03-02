@@ -1,0 +1,247 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei","Microsoft JhengHei";
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+span{
+    font-size: 20px;
+    color: #06F;
+    text-shadow: none;
+}
+
+.headSrc{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url(./img/headPic.jpg);
+    background-size: 100% 100%;
+}
+
+.title{
+    position: relative;
+    left: 15%;
+    top: 10%;
+    width: 1000px;
+    height: auto;
+}
+
+.slogan{
+    width: 40%;
+    height: 27%;
+    margin: 10px auto;
+    background-size: 100% 100%;
+}
+
+.slogan1{
+    background-image: url(./img/title1.png);
+    margin-top: 10px;
+}
+
+.slogan2{
+        background-image: url(./img/title2.png);
+        margin-top: 5px;
+}
+
+.slogan3{
+        background-image: url(./img/slogan3.png);
+}
+
+.content{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    border-radius: 30px;
+}
+
+.content1{
+    width: 1000px;
+    margin: 0 auto 40px auto;
+    padding: 20px 30px 30px 30px;
+    font-size: 20px;
+    line-height: 1.8em;
+    text-indent: 2em;
+}
+
+.content2{
+    width: 1200px;
+    margin: 10px auto 10px auto;
+    padding-top :20px;
+}
+
+.content3{
+    position: relative;
+    width: 1000px;
+    padding-bottom: 50px;
+    margin: 50px auto;
+}
+
+.dec-line{
+    width: 100%;
+    height: 50px;
+    border-top: 50px solid #FA3;
+    border-radius: 30px;
+}
+
+.person{
+    display: inline-block;
+    width: 207px;
+    height: 230px; 
+    margin: 20px 3.5% 0 3.5%;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    transition: all .3s;
+}
+
+.person:hover{
+    border: 2px solid lightskyblue;
+}
+
+.picture{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.starstudio{
+    margin: 150px 0 50px 0;
+    text-align: center;
+    color: #B50;
+}
+
+.picture1{
+    background: url(./img/h1.jpg);
+    background-size: 100% 100%;
+}
+
+.picture2{
+    background: url(./img/h2.jpg);
+    background-size: 100% 100%;
+}
+
+.picture3{
+    background: url(./img/h3.jpg);
+    background-size: 100% 100%;
+}
+
+.picture4{
+    background: url(./img/h4.jpg);
+    background-size: 100% 100%;
+}
+
+.picture5{
+    background: url(./img/h5.jpg);
+    background-size: 100% 100%;
+}
+
+.picture6{
+    background: url(./img/h6.jpg);
+    background-size: 100% 100%;
+}
+
+.picture7{
+    background: url(./img/h7.jpg);
+    background-size: 100% 100%;
+}
+
+.picture8{
+    background: url(./img/h8.jpg);
+    background-size: 100% 100%;
+}
+
+.picture9{
+    background: url(./img/h9.jpg);
+    background-size: 100% 100%;
+}
+
+.picture10{
+    background: url(./img/h10.jpg);
+    background-size: 100% 100%;
+}
+
+.picture11{
+    background: url(./img/h11.jpg);
+    background-size: 100% 100%;
+}
+
+.picture12{
+    background: url(./img/h12.jpg);
+    background-size: 100% 100%;
+}
+
+.picture13{
+    background: url(./img/h13.jpg);
+    background-size: 100% 100%;
+}
+
+.picture14{
+    background: url(./img/h14.jpg);
+    background-size: 100% 100%;
+}
+
+.picture15{
+    background: url(./img/h15.jpg);
+    background-size: 100% 100%;
+}
+
+.picture16{
+    background: url(./img/h16.jpg);
+    background-size: 100% 100%;
+}
+
+.picture17{
+    background: url(./img/h17.jpg);
+    background-size: 100% 100%;
+}
+
+.picture18{
+    background: url(./img/h18.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+.intro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;  
+    color: white;
+    text-align: center;
+    background: rgba(168,114,128,0.6);
+
+}
+
+.content3 img:first-child{
+    position: absolute;
+    top: -7%;
+    left: 10%;
+    width: 150px;
+}
+
+.content3 p{
+    text-shadow: 1px 1px 1px #AAA;
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.content3 img:last-child{
+    display: block;
+    margin: auto;
+    width: 300px;
+}
